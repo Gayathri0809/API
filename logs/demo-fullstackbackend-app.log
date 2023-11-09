@@ -1,0 +1,38 @@
+09:58:21.525 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 16376 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+09:58:21.531 [restartedMain] DEBUG c.d.f.FullstackBackendApplication - Running with Spring Boot v2.6.7, Spring v5.3.19
+09:58:21.532 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+09:58:31.384 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 10.522 seconds (JVM running for 19.561)
+10:08:18.944 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 25988 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+10:08:18.956 [restartedMain] DEBUG c.d.f.FullstackBackendApplication - Running with Spring Boot v2.6.7, Spring v5.3.19
+10:08:18.957 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+10:08:28.474 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 10.178 seconds (JVM running for 19.321)
+10:53:18.128 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 22352 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+10:53:18.135 [restartedMain] DEBUG c.d.f.FullstackBackendApplication - Running with Spring Boot v2.6.7, Spring v5.3.19
+10:53:18.136 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+10:53:27.036 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 9.491 seconds (JVM running for 10.757)
+10:55:48.133 [http-nio-8080-exec-5] INFO  c.d.f.c.OrderHistoryController - Getting all order history records.
+11:02:38.465 [http-nio-8080-exec-6] INFO  c.d.f.c.OrderHistoryController - Getting all order history records.
+11:06:52.932 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 14324 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+11:06:52.937 [restartedMain] DEBUG c.d.f.FullstackBackendApplication - Running with Spring Boot v2.6.7, Spring v5.3.19
+11:06:52.938 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+11:07:03.454 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 11.167 seconds (JVM running for 12.423)
+11:07:13.197 [http-nio-8080-exec-1] INFO  c.d.f.c.OrderHistoryController - Getting all order history records.
+11:11:03.952 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 27720 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+11:11:03.963 [restartedMain] DEBUG c.d.f.FullstackBackendApplication - Running with Spring Boot v2.6.7, Spring v5.3.19
+11:11:03.964 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+11:11:15.321 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 12.118 seconds (JVM running for 14.022)
+11:11:22.064 [http-nio-8080-exec-1] INFO  c.d.f.c.OrderHistoryController - Getting all order history records.
+11:15:41.808 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 7356 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+11:15:41.811 [restartedMain] DEBUG c.d.f.FullstackBackendApplication - Running with Spring Boot v2.6.7, Spring v5.3.19
+11:15:41.812 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+11:15:51.122 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 9.976 seconds (JVM running for 11.448)
+11:15:56.761 [http-nio-8080-exec-3] INFO  c.d.f.c.OrderHistoryController - Getting all order history records.
+11:23:08.529 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 22476 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+11:23:08.534 [restartedMain] DEBUG c.d.f.FullstackBackendApplication - Running with Spring Boot v2.6.7, Spring v5.3.19
+11:23:08.535 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+11:23:16.819 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 8.911 seconds (JVM running for 10.003)
+11:23:25.107 [http-nio-8080-exec-2] INFO  c.d.f.c.OrderHistoryController - Getting all order history records.
+11:26:32.914 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 28088 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+11:26:32.921 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+11:26:41.171 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 8.919 seconds (JVM running for 10.143)
+11:27:35.529 [http-nio-8080-exec-2] INFO  c.d.f.c.OrderHistoryController - Getting all order history records.

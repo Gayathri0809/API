@@ -1,0 +1,524 @@
+11:38:21.712 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 12824 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+11:38:21.719 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+11:38:21.830 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:38:21.837 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:38:23.332 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:38:23.455 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 104 ms. Found 8 JPA repository interfaces.
+11:38:24.727 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:38:24.750 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:38:24.752 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:38:24.755 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+11:38:24.915 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:38:24.916 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3072 ms
+11:38:25.247 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:38:25.332 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+11:38:25.616 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:38:25.803 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:38:26.280 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:38:26.317 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:38:27.667 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:38:27.681 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:38:28.737 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:38:29.155 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:38:29.479 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:38:29.513 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:38:30.082 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 9.287 seconds (JVM running for 10.361)
+11:38:48.240 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:38:48.240 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:38:48.249 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+11:38:48.349 [http-nio-8080-exec-2] INFO  c.d.f.c.OrderHistoryController - Getting all order history records.
+11:38:48.974 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select orderhisto0_.id as id1_7_, orderhisto0_.name as name2_7_, orderhisto0_.price as price3_7_ from order_history orderhisto0_
+11:56:52.246 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m55s742ms542µs400ns).
+12:07:24.252 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select register0_.id as id1_8_, register0_.email as email2_8_, register0_.name as name3_8_, register0_.password as password4_8_, register0_.phone as phone5_8_ from register register0_
+12:07:24.358 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select register0_.id as id1_8_, register0_.email as email2_8_, register0_.name as name3_8_, register0_.password as password4_8_, register0_.phone as phone5_8_ from register register0_
+12:07:36.563 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+12:07:36.615 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+12:07:45.634 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+12:07:45.675 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+14:06:26.995 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m34s46ms384µs300ns).
+14:40:39.845 [http-nio-8080-exec-3] INFO  c.d.f.c.OrderHistoryController - Getting all order history records.
+14:40:39.966 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select orderhisto0_.id as id1_7_, orderhisto0_.name as name2_7_, orderhisto0_.price as price3_7_ from order_history orderhisto0_
+14:40:40.060 [http-nio-8080-exec-4] INFO  c.d.f.c.OrderHistoryController - Getting all order history records.
+14:40:40.065 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select orderhisto0_.id as id1_7_, orderhisto0_.name as name2_7_, orderhisto0_.price as price3_7_ from order_history orderhisto0_
+15:43:21.609 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m23s830ms719µs900ns).
+15:46:54.899 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+15:46:54.965 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+15:47:01.743 [http-nio-8080-exec-1] INFO  c.d.f.c.OrderHistoryController - Creating a new order history record.
+15:47:02.057 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select next_val as id_val from hibernate_sequence for update
+15:47:02.074 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - update hibernate_sequence set next_val= ? where next_val=?
+15:47:02.261 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - insert into order_history (name, price, id) values (?, ?, ?)
+15:47:02.294 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [null]
+15:47:02.294 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [null]
+15:47:02.294 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [BIGINT] - [216]
+15:48:34.783 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+15:48:34.804 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+15:49:53.738 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+15:50:17.451 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+15:50:17.474 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+15:50:20.140 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:50:20.173 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:50:41.869 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:50:41.892 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:54:04.783 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:54:04.820 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:55:42.967 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:55:42.980 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:57:30.257 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:57:49.185 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+15:57:49.200 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+15:58:11.645 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:58:11.676 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:59:36.036 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:59:36.058 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:00:41.160 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:04:01.461 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:04:01.476 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:06:35.645 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:08:59.358 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:08:59.368 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:09:50.647 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:09:54.044 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:09:54.078 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:10:15.637 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:10:49.064 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:10:49.093 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:11:01.165 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+16:11:01.184 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+16:11:07.306 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:11:07.348 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:26:27.635 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:26:37.788 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:26:37.840 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:33:31.864 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:33:31.887 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:47:36.004 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m13s412ms949µs200ns).
+16:49:43.810 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:49:43.843 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:49:48.900 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+16:49:48.928 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+16:50:12.175 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+16:50:20.627 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:50:20.679 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+16:50:26.468 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+16:50:26.492 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:21:39.948 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m3s780ms992µs300ns).
+17:32:13.132 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m3s80ms262µs).
+17:42:43.034 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:42:43.067 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:42:44.213 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:42:44.237 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:42:45.409 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:42:45.439 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:42:46.683 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:42:46.709 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:42:48.175 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:42:48.189 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:48:52.267 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:48:52.281 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:48:55.962 [http-nio-8080-exec-2] INFO  c.d.f.c.OrderHistoryController - Creating a new order history record.
+17:48:55.995 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select next_val as id_val from hibernate_sequence for update
+17:48:56.012 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - update hibernate_sequence set next_val= ? where next_val=?
+17:48:56.027 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - insert into order_history (name, price, id) values (?, ?, ?)
+17:48:56.027 [http-nio-8080-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [null]
+17:48:56.031 [http-nio-8080-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [null]
+17:48:56.031 [http-nio-8080-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [BIGINT] - [217]
+17:48:58.701 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:48:58.719 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:54:17.542 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:26:36.552 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 33196 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+17:26:36.560 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+17:26:36.804 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:26:36.851 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:26:40.429 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:26:40.770 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 313 ms. Found 8 JPA repository interfaces.
+17:26:44.611 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:26:44.640 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:26:44.648 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:26:44.648 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+17:26:45.518 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:26:45.635 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8657 ms
+17:26:51.900 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:26:52.108 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+17:26:52.775 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:26:53.090 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:26:53.949 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:26:53.999 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+17:26:55.852 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:26:55.872 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:26:58.530 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:26:59.430 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+17:27:00.037 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:27:00.219 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:27:01.406 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 26.422 seconds (JVM running for 33.699)
+17:28:05.367 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:28:05.367 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:28:05.367 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+17:28:06.143 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:28:06.345 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:28:18.021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:28:18.087 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:45:59.195 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:45:59.346 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:46:33.118 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:46:33.167 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:46:36.107 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:46:36.155 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:46:41.083 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:46:41.104 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:47:20.881 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:47:20.931 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:47:36.788 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:47:36.812 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:48:29.163 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:48:29.201 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:57:50.237 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m56s831ms927µs100ns).
+18:04:32.468 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+18:04:32.502 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+18:04:51.110 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+18:04:51.134 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+18:16:12.186 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+18:16:12.221 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+18:16:17.537 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+18:16:17.556 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+18:16:21.353 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+18:16:21.384 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+18:16:27.643 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.demo.fullstackbackend.model.OrderHistory` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.demo.fullstackbackend.model.OrderHistory` from Array value (token `JsonToken.START_ARRAY`)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]]
+18:17:50.642 [http-nio-8080-exec-3] INFO  c.d.f.c.OrderHistoryController - Getting all order history records.
+18:17:50.672 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select orderhisto0_.id as id1_7_, orderhisto0_.name as name2_7_, orderhisto0_.price as price3_7_ from order_history orderhisto0_
+18:18:39.046 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.demo.fullstackbackend.model.OrderHistory` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.demo.fullstackbackend.model.OrderHistory` from Array value (token `JsonToken.START_ARRAY`)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]]
+18:31:59.663 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+18:33:21.280 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+18:34:26.144 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+18:35:01.072 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+18:38:43.821 [http-nio-8080-exec-3] INFO  c.d.f.c.OrderHistoryController - Creating a new order history record.
+18:38:44.000 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select orderhisto0_.id as id1_7_0_, orderhisto0_.name as name2_7_0_, orderhisto0_.price as price3_7_0_ from order_history orderhisto0_ where orderhisto0_.id=?
+18:38:44.017 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [20]
+18:38:44.067 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select next_val as id_val from hibernate_sequence for update
+18:38:44.069 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - update hibernate_sequence set next_val= ? where next_val=?
+18:38:44.152 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - insert into order_history (name, price, id) values (?, ?, ?)
+18:38:44.159 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [hii]
+18:38:44.159 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [205]
+18:38:44.159 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [BIGINT] - [218]
+18:40:08.187 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.demo.fullstackbackend.model.OrderHistory` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.demo.fullstackbackend.model.OrderHistory` from Array value (token `JsonToken.START_ARRAY`)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]]
+18:50:46.151 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 21460 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+18:50:46.156 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+18:50:47.054 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:50:47.059 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:50:49.328 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 23920 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+18:50:49.340 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+18:50:49.665 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:50:49.666 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:50:50.513 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:50:50.821 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 286 ms. Found 8 JPA repository interfaces.
+18:50:53.334 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:50:53.699 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 326 ms. Found 8 JPA repository interfaces.
+18:50:53.762 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:50:53.799 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:50:53.849 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:50:53.851 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+18:50:54.284 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:50:54.285 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7221 ms
+18:50:56.113 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:50:56.366 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+18:50:56.844 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:50:56.865 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:50:56.870 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:50:56.874 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+18:50:57.161 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:50:57.162 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7491 ms
+18:50:57.445 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:50:58.565 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:50:58.616 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:50:58.780 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+18:50:59.164 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:50:59.421 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:50:59.545 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:50:59.667 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:51:00.538 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:51:00.574 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:51:01.767 [restartedMain] DEBUG org.hibernate.SQL - alter table order_history add column category varchar(255)
+18:51:01.978 [restartedMain] DEBUG org.hibernate.SQL - alter table order_history add column description varchar(255)
+18:51:02.002 [restartedMain] DEBUG org.hibernate.SQL - alter table order_history add column images varchar(255)
+18:51:02.030 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:51:02.048 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:51:02.598 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:51:02.613 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:51:06.346 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:51:07.948 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:51:08.590 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+18:51:09.473 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:51:09.494 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+18:51:09.550 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:51:10.014 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:51:10.026 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+18:51:10.098 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:51:10.125 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:51:10.171 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:51:10.182 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+18:51:10.188 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+18:51:10.200 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+18:51:10.202 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+18:51:10.228 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:51:10.281 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+18:51:10.626 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 25.393 seconds (JVM running for 35.245)
+18:51:44.814 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 10948 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+18:51:44.819 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+18:51:45.027 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:51:45.030 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:51:46.496 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:51:46.653 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 134 ms. Found 8 JPA repository interfaces.
+18:51:47.970 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:51:47.990 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:51:47.992 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:51:47.997 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+18:51:48.167 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:51:48.169 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3138 ms
+18:51:48.541 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:51:48.639 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+18:51:48.924 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:51:49.118 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:51:49.717 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:51:49.746 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:51:51.279 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:51:51.301 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:51:52.540 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:51:52.890 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+18:51:53.180 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:51:53.190 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+18:51:53.204 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:51:53.210 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:51:53.230 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:51:53.239 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+18:51:53.241 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+18:51:53.255 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+18:51:53.257 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+18:51:53.278 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:51:53.318 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+18:52:10.606 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:52:10.606 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:52:10.606 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+18:52:11.040 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.demo.fullstackbackend.model.OrderHistory` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.demo.fullstackbackend.model.OrderHistory` from Array value (token `JsonToken.START_ARRAY`)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]]
+18:52:39.987 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+08:45:55.001 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 15628 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+08:45:55.010 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+08:45:55.299 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+08:45:55.300 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+08:45:57.559 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08:45:57.723 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 139 ms. Found 8 JPA repository interfaces.
+08:45:59.148 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08:45:59.174 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08:45:59.176 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:45:59.180 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+08:45:59.356 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:45:59.358 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4056 ms
+08:45:59.790 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+08:45:59.933 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+08:46:00.413 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08:46:00.648 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+08:46:01.222 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+08:46:01.244 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+08:46:02.474 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08:46:02.493 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08:46:03.556 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08:46:03.923 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+08:46:04.224 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+08:46:04.269 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+08:46:04.912 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 10.616 seconds (JVM running for 20.137)
+09:01:12.858 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 15132 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+09:01:12.864 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+09:01:13.284 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:01:13.286 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:01:15.126 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:01:15.283 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133 ms. Found 8 JPA repository interfaces.
+09:01:16.573 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:01:16.598 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:01:16.600 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:01:16.600 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+09:01:16.812 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:01:16.812 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3525 ms
+09:01:17.271 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:01:17.485 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+09:01:17.802 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:01:18.018 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+09:01:18.483 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+09:01:18.511 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+09:01:19.943 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:01:19.962 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:01:21.589 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09:01:22.206 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:01:22.565 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:01:22.604 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:01:23.164 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 10.998 seconds (JVM running for 19.929)
+09:33:52.969 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:33:52.975 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:33:53.017 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 42 ms
+09:33:53.214 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "${itemId}"]
+09:33:54.116 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "${itemId}"]
+09:33:54.191 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+09:33:54.659 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+09:33:55.857 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "${itemId}"]
+09:33:56.402 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+09:35:54.891 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "${itemId}"]
+09:35:55.063 [http-nio-8080-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+09:36:24.668 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+09:36:24.828 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+09:48:48.350 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+09:48:48.365 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+09:53:50.092 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+09:53:50.119 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+09:58:33.833 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+09:58:33.865 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+10:00:07.277 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+10:00:07.305 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+10:01:37.184 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+10:01:37.211 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+10:01:41.891 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+10:01:41.926 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+10:02:01.247 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+10:02:01.273 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+10:14:29.891 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_0_, menu0_.category as category2_6_0_, menu0_.description as descript3_6_0_, menu0_.images as images4_6_0_, menu0_.name as name5_6_0_, menu0_.price as price6_6_0_ from menu menu0_ where menu0_.id=?
+10:14:29.931 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+10:14:30.003 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_0_, menu0_.category as category2_6_0_, menu0_.description as descript3_6_0_, menu0_.images as images4_6_0_, menu0_.name as name5_6_0_, menu0_.price as price6_6_0_ from menu menu0_ where menu0_.id=?
+10:14:30.005 [http-nio-8080-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+10:18:51.339 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_0_, menu0_.category as category2_6_0_, menu0_.description as descript3_6_0_, menu0_.images as images4_6_0_, menu0_.name as name5_6_0_, menu0_.price as price6_6_0_ from menu menu0_ where menu0_.id=?
+10:18:51.341 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+10:18:51.360 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_0_, menu0_.category as category2_6_0_, menu0_.description as descript3_6_0_, menu0_.images as images4_6_0_, menu0_.name as name5_6_0_, menu0_.price as price6_6_0_ from menu menu0_ where menu0_.id=?
+10:18:51.361 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+10:55:20.204 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+10:55:20.254 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+10:55:24.064 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+10:55:24.086 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+10:56:46.407 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_0_, menu0_.category as category2_6_0_, menu0_.description as descript3_6_0_, menu0_.images as images4_6_0_, menu0_.name as name5_6_0_, menu0_.price as price6_6_0_ from menu menu0_ where menu0_.id=?
+10:56:46.407 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+10:56:46.435 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_0_, menu0_.category as category2_6_0_, menu0_.description as descript3_6_0_, menu0_.images as images4_6_0_, menu0_.name as name5_6_0_, menu0_.price as price6_6_0_ from menu menu0_ where menu0_.id=?
+10:56:46.435 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+11:02:35.071 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+11:02:35.091 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+11:08:20.535 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+11:08:20.559 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+11:09:15.417 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_0_, menu0_.category as category2_6_0_, menu0_.description as descript3_6_0_, menu0_.images as images4_6_0_, menu0_.name as name5_6_0_, menu0_.price as price6_6_0_ from menu menu0_ where menu0_.id=?
+11:09:15.418 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+11:09:15.435 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_0_, menu0_.category as category2_6_0_, menu0_.description as descript3_6_0_, menu0_.images as images4_6_0_, menu0_.name as name5_6_0_, menu0_.price as price6_6_0_ from menu menu0_ where menu0_.id=?
+11:09:15.435 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+11:17:58.953 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+11:17:58.975 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+11:18:24.834 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+11:18:24.872 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+11:18:33.745 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+11:18:33.757 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+11:18:38.361 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+11:18:38.393 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+13:11:29.841 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h40m8s753ms776µs400ns).
+14:03:46.012 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m15s345ms948µs400ns).
+15:42:40.098 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m53s626ms155µs800ns).
+15:43:26.667 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:43:26.755 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:43:41.081 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+15:43:41.113 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+15:44:50.313 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:44:50.332 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:44:57.066 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select register0_.id as id1_8_, register0_.email as email2_8_, register0_.name as name3_8_, register0_.password as password4_8_, register0_.phone as phone5_8_ from register register0_
+15:44:57.114 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - select register0_.id as id1_8_, register0_.email as email2_8_, register0_.name as name3_8_, register0_.password as password4_8_, register0_.phone as phone5_8_ from register register0_
+15:45:21.803 [http-nio-8080-exec-10] INFO  c.d.f.c.OrderHistoryController - Getting all order history records.
+15:45:21.820 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select orderhisto0_.id as id1_7_, orderhisto0_.category as category2_7_, orderhisto0_.description as descript3_7_, orderhisto0_.images as images4_7_, orderhisto0_.name as name5_7_, orderhisto0_.price as price6_7_ from order_history orderhisto0_
+15:45:21.848 [http-nio-8080-exec-10] INFO  c.d.f.c.OrderHistoryController - Getting all order history records.
+15:45:21.855 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select orderhisto0_.id as id1_7_, orderhisto0_.category as category2_7_, orderhisto0_.description as descript3_7_, orderhisto0_.images as images4_7_, orderhisto0_.name as name5_7_, orderhisto0_.price as price6_7_ from order_history orderhisto0_
+18:19:01.026 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h7m50s478ms508µs900ns).
+15:32:25.306 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 27740 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+15:32:25.311 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+15:32:25.430 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+15:32:25.435 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+15:32:27.402 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15:32:27.560 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 134 ms. Found 8 JPA repository interfaces.
+15:32:28.833 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:32:28.857 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:32:28.858 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:32:28.861 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+15:32:28.996 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:32:28.998 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3557 ms
+15:32:29.356 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:32:29.462 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+15:32:29.810 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15:32:30.030 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:32:30.593 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:32:30.611 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+15:32:31.951 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:32:31.968 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:32:33.172 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:32:33.612 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+15:32:33.897 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:32:33.945 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:32:34.617 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 9.952 seconds (JVM running for 20.492)
+15:34:16.085 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:34:16.085 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:34:16.089 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+15:34:16.540 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:34:16.782 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:34:22.845 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+15:34:22.876 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+15:34:28.375 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+15:34:28.451 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:13:14.782 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Starting FullstackBackendApplication using Java 17.0.6 on Gayathri with PID 28356 (C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master\target\classes started by GOSALA GAYATHRI in C:\Users\GOSALA GAYATHRI\Downloads\fullstack-backend-master\fullstack-backend-master)
+17:13:14.791 [restartedMain] INFO  c.d.f.FullstackBackendApplication - No active profile set, falling back to 1 default profile: "default"
+17:13:15.052 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:13:15.053 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:13:16.816 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:13:16.944 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 107 ms. Found 8 JPA repository interfaces.
+17:13:18.171 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:13:18.193 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:13:18.194 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:13:18.197 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+17:13:18.352 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:13:18.353 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3297 ms
+17:13:18.730 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:13:18.849 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+17:13:19.154 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:13:19.327 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:13:20.019 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:13:20.039 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+17:13:21.163 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:13:21.176 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:13:22.205 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:13:22.584 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+17:13:22.869 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:13:22.919 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:13:23.430 [restartedMain] INFO  c.d.f.FullstackBackendApplication - Started FullstackBackendApplication in 9.272 seconds (JVM running for 13.209)
+17:28:16.973 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:28:16.973 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:28:16.988 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+17:28:17.312 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:28:17.478 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:29:03.836 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:29:03.906 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - select menu0_.id as id1_6_, menu0_.category as category2_6_, menu0_.description as descript3_6_, menu0_.images as images4_6_, menu0_.name as name5_6_, menu0_.price as price6_6_ from menu menu0_
+17:29:29.293 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
+17:29:29.316 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - select addres0_.id as id1_0_, addres0_.address as address2_0_, addres0_.name as name3_0_, addres0_.phone as phone4_0_, addres0_.pincode as pincode5_0_ from addres addres0_
